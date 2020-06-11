@@ -1,0 +1,220 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+}
+
+/* HEADINGS */
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+/* CONTAINER FLUID */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+.colored-section {
+  background-color: #05A4B3;
+}
+
+.white-section {
+  background-color: white;
+
+}
+
+/* FIRST section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.rotate-image {
+
+  width: 150%;
+  position:relative;
+  bottom: 6rem;
+  right: 6rem;
+
+}
+
+.navbar {
+  padding:0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+#brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* FEATURES */
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.fas1 {
+  color: #06ADBD;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.fas1:hover {
+  color:#000839;
+}
+
+.features {
+  margin: 0;
+  padding: 5%;
+}
+
+#features {
+  position: relative;
+}
+
+.pf {
+  color:#8f8f8f;
+}
+
+
+/* TESTIMONIALS */
+
+#testimonials {
+  background-color: #06ADBD;
+  color: white;
+}
+
+
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+.testimonial-image {
+  width:20%;
+  border-radius: 100%;
+  margin: 5px;
+}
+
+/* ID PRESS */
+
+#press {
+  padding-bottom: 3%;
+  background-color: #06ADBD;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+  background: #06ADBD;
+}
+
+/* SOBRE SECTION */
+
+#pricing {
+  padding: 100px;
+
+}
+
+.price-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3%;
+}
+
+.fas3 {
+  color: #06ADBD;
+  font-size: 5rem;
+}
+
+.fas3:hover{
+  color:#000839;
+}
+
+.profile-image {
+  width:30%;
+  border-radius: 100%;
+  margin: 5px;
+}
+
+#pricing h3 {
+  color: #06ADBD;
+}
+
+#pricing .section-heading {
+  line-height: 0.5;
+}
+
+.text-about {
+  width: 50%;
+  padding-top: 1rem;
+  margin:auto;
+  line-height: 2;
+}
+
+/* CALL TO ACTION SECTION */
+#cta {
+  color:white;
+}
+
+/* FOOTER */
+
+.fab2 {
+  margin: 0 1rem 2rem;
+}
+
+#footer a {
+  text-decoration: none;
+  color: black;
+}
+
+
+@media screen and (max-width: 995px) {
+  .rotate-image {
+    transform:rotate(0deg);
+    width: 60%;
+    position:static;
+}
+
+
+}
